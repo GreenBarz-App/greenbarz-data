@@ -1,0 +1,1376 @@
+{
+  "updated": "2026-04-27",
+  "source": "CFTC Disaggregated Futures-Only",
+  "contracts": [
+    {
+      "contract": "WTI",
+      "cftc_name": "CRUDE OIL, LIGHT SWEET-WTI - ICE FUTURES EUROPE",
+      "date": "2026-04-21",
+      "mm_long": 8184,
+      "mm_short": 49155,
+      "mm_net": -40971,
+      "com_long": 0,
+      "com_short": 0,
+      "com_net": 0,
+      "oi": 842828,
+      "history": [
+        {
+          "date": "2025-10-28",
+          "mm_long": 10593,
+          "mm_short": 41680,
+          "mm_net": -31087,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 788199
+        },
+        {
+          "date": "2025-11-04",
+          "mm_long": 14525,
+          "mm_short": 44220,
+          "mm_net": -29695,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 793140
+        },
+        {
+          "date": "2025-11-10",
+          "mm_long": 16213,
+          "mm_short": 42196,
+          "mm_net": -25983,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 801648
+        },
+        {
+          "date": "2025-11-18",
+          "mm_long": 13986,
+          "mm_short": 42985,
+          "mm_net": -28999,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 793994
+        },
+        {
+          "date": "2025-11-25",
+          "mm_long": 13312,
+          "mm_short": 40446,
+          "mm_net": -27134,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 772795
+        },
+        {
+          "date": "2025-12-02",
+          "mm_long": 13343,
+          "mm_short": 37061,
+          "mm_net": -23718,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 766596
+        },
+        {
+          "date": "2025-12-09",
+          "mm_long": 12975,
+          "mm_short": 37784,
+          "mm_net": -24809,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 781559
+        },
+        {
+          "date": "2025-12-16",
+          "mm_long": 3584,
+          "mm_short": 38192,
+          "mm_net": -34608,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 802736
+        },
+        {
+          "date": "2025-12-23",
+          "mm_long": 4255,
+          "mm_short": 37992,
+          "mm_net": -33737,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 773263
+        },
+        {
+          "date": "2025-12-30",
+          "mm_long": 3903,
+          "mm_short": 40425,
+          "mm_net": -36522,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 782141
+        },
+        {
+          "date": "2026-01-06",
+          "mm_long": 4898,
+          "mm_short": 42973,
+          "mm_net": -38075,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 794768
+        },
+        {
+          "date": "2026-01-13",
+          "mm_long": 9692,
+          "mm_short": 47067,
+          "mm_net": -37375,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 825340
+        },
+        {
+          "date": "2026-01-20",
+          "mm_long": 6900,
+          "mm_short": 45222,
+          "mm_net": -38322,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 787465
+        },
+        {
+          "date": "2026-01-27",
+          "mm_long": 6784,
+          "mm_short": 45502,
+          "mm_net": -38718,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 807684
+        },
+        {
+          "date": "2026-02-03",
+          "mm_long": 19371,
+          "mm_short": 41173,
+          "mm_net": -21802,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 823911
+        },
+        {
+          "date": "2026-02-10",
+          "mm_long": 18177,
+          "mm_short": 38694,
+          "mm_net": -20517,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 852624
+        },
+        {
+          "date": "2026-02-17",
+          "mm_long": 26757,
+          "mm_short": 46236,
+          "mm_net": -19479,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 870334
+        },
+        {
+          "date": "2026-02-24",
+          "mm_long": 12583,
+          "mm_short": 35967,
+          "mm_net": -23384,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 827970
+        },
+        {
+          "date": "2026-03-03",
+          "mm_long": 18682,
+          "mm_short": 35771,
+          "mm_net": -17089,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 859757
+        },
+        {
+          "date": "2026-03-10",
+          "mm_long": 7879,
+          "mm_short": 36024,
+          "mm_net": -28145,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 846189
+        },
+        {
+          "date": "2026-03-17",
+          "mm_long": 7867,
+          "mm_short": 39154,
+          "mm_net": -31287,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 849074
+        },
+        {
+          "date": "2026-03-24",
+          "mm_long": 7849,
+          "mm_short": 37129,
+          "mm_net": -29280,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 846034
+        },
+        {
+          "date": "2026-03-31",
+          "mm_long": 7191,
+          "mm_short": 41005,
+          "mm_net": -33814,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 855613
+        },
+        {
+          "date": "2026-04-07",
+          "mm_long": 7883,
+          "mm_short": 43573,
+          "mm_net": -35690,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 858838
+        },
+        {
+          "date": "2026-04-14",
+          "mm_long": 8233,
+          "mm_short": 53467,
+          "mm_net": -45234,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 872032
+        },
+        {
+          "date": "2026-04-21",
+          "mm_long": 8184,
+          "mm_short": 49155,
+          "mm_net": -40971,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 842828
+        }
+      ]
+    },
+    {
+      "contract": "WTI_NYM",
+      "cftc_name": "WTI FINANCIAL CRUDE OIL - NEW YORK MERCANTILE EXCHANGE",
+      "date": "2026-04-21",
+      "mm_long": 0,
+      "mm_short": 0,
+      "mm_net": 0,
+      "com_long": 0,
+      "com_short": 0,
+      "com_net": 0,
+      "oi": 232833,
+      "history": [
+        {
+          "date": "2025-10-28",
+          "mm_long": 0,
+          "mm_short": 1914,
+          "mm_net": -1914,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 170277
+        },
+        {
+          "date": "2025-11-04",
+          "mm_long": 0,
+          "mm_short": 1450,
+          "mm_net": -1450,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 162671
+        },
+        {
+          "date": "2025-11-10",
+          "mm_long": 0,
+          "mm_short": 1354,
+          "mm_net": -1354,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 163973
+        },
+        {
+          "date": "2025-11-18",
+          "mm_long": 0,
+          "mm_short": 1258,
+          "mm_net": -1258,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 171541
+        },
+        {
+          "date": "2025-11-25",
+          "mm_long": 0,
+          "mm_short": 1258,
+          "mm_net": -1258,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 176638
+        },
+        {
+          "date": "2025-12-02",
+          "mm_long": 0,
+          "mm_short": 950,
+          "mm_net": -950,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 159976
+        },
+        {
+          "date": "2025-12-09",
+          "mm_long": 0,
+          "mm_short": 1058,
+          "mm_net": -1058,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 163099
+        },
+        {
+          "date": "2025-12-16",
+          "mm_long": 0,
+          "mm_short": 1058,
+          "mm_net": -1058,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 166861
+        },
+        {
+          "date": "2025-12-23",
+          "mm_long": 0,
+          "mm_short": 1334,
+          "mm_net": -1334,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 174882
+        },
+        {
+          "date": "2025-12-30",
+          "mm_long": 0,
+          "mm_short": 1334,
+          "mm_net": -1334,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 180123
+        },
+        {
+          "date": "2026-01-06",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 153565
+        },
+        {
+          "date": "2026-01-13",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 163182
+        },
+        {
+          "date": "2026-01-20",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 170314
+        },
+        {
+          "date": "2026-01-27",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 177483
+        },
+        {
+          "date": "2026-02-03",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 167458
+        },
+        {
+          "date": "2026-02-10",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 172532
+        },
+        {
+          "date": "2026-02-17",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 176823
+        },
+        {
+          "date": "2026-02-24",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 189804
+        },
+        {
+          "date": "2026-03-03",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 188874
+        },
+        {
+          "date": "2026-03-10",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 206658
+        },
+        {
+          "date": "2026-03-17",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 213364
+        },
+        {
+          "date": "2026-03-24",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 225742
+        },
+        {
+          "date": "2026-03-31",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 235004
+        },
+        {
+          "date": "2026-04-07",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 220157
+        },
+        {
+          "date": "2026-04-14",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 226616
+        },
+        {
+          "date": "2026-04-21",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 232833
+        }
+      ]
+    },
+    {
+      "contract": "BRENT",
+      "cftc_name": "BRENT CRUDE OIL LAST DAY - NEW YORK MERCANTILE EXCHANGE",
+      "date": "2022-02-01",
+      "mm_long": 4882,
+      "mm_short": 13562,
+      "mm_net": -8680,
+      "com_long": 0,
+      "com_short": 0,
+      "com_net": 0,
+      "oi": 203928,
+      "history": [
+        {
+          "date": "2021-08-10",
+          "mm_long": 7969,
+          "mm_short": 28784,
+          "mm_net": -20815,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 193844
+        },
+        {
+          "date": "2021-08-17",
+          "mm_long": 10357,
+          "mm_short": 30137,
+          "mm_net": -19780,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 200056
+        },
+        {
+          "date": "2021-08-24",
+          "mm_long": 6541,
+          "mm_short": 26225,
+          "mm_net": -19684,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 206810
+        },
+        {
+          "date": "2021-08-31",
+          "mm_long": 10144,
+          "mm_short": 29140,
+          "mm_net": -18996,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 213369
+        },
+        {
+          "date": "2021-09-07",
+          "mm_long": 4983,
+          "mm_short": 23778,
+          "mm_net": -18795,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 193619
+        },
+        {
+          "date": "2021-09-14",
+          "mm_long": 4974,
+          "mm_short": 26031,
+          "mm_net": -21057,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 203445
+        },
+        {
+          "date": "2021-09-21",
+          "mm_long": 2236,
+          "mm_short": 26972,
+          "mm_net": -24736,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 199216
+        },
+        {
+          "date": "2021-09-28",
+          "mm_long": 485,
+          "mm_short": 28631,
+          "mm_net": -28146,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 203987
+        },
+        {
+          "date": "2021-10-05",
+          "mm_long": 49,
+          "mm_short": 26597,
+          "mm_net": -26548,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 197795
+        },
+        {
+          "date": "2021-10-12",
+          "mm_long": 45,
+          "mm_short": 27412,
+          "mm_net": -27367,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 205521
+        },
+        {
+          "date": "2021-10-19",
+          "mm_long": 843,
+          "mm_short": 25849,
+          "mm_net": -25006,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 202714
+        },
+        {
+          "date": "2021-10-26",
+          "mm_long": 5370,
+          "mm_short": 25348,
+          "mm_net": -19978,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 200768
+        },
+        {
+          "date": "2021-11-02",
+          "mm_long": 5125,
+          "mm_short": 23164,
+          "mm_net": -18039,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 183766
+        },
+        {
+          "date": "2021-11-09",
+          "mm_long": 7599,
+          "mm_short": 22048,
+          "mm_net": -14449,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 192398
+        },
+        {
+          "date": "2021-11-16",
+          "mm_long": 7946,
+          "mm_short": 21371,
+          "mm_net": -13425,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 199930
+        },
+        {
+          "date": "2021-11-23",
+          "mm_long": 6925,
+          "mm_short": 20872,
+          "mm_net": -13947,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 206668
+        },
+        {
+          "date": "2021-11-30",
+          "mm_long": 7628,
+          "mm_short": 22817,
+          "mm_net": -15189,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 217781
+        },
+        {
+          "date": "2021-12-07",
+          "mm_long": 9487,
+          "mm_short": 21007,
+          "mm_net": -11520,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 211254
+        },
+        {
+          "date": "2021-12-14",
+          "mm_long": 8609,
+          "mm_short": 21603,
+          "mm_net": -12994,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 217274
+        },
+        {
+          "date": "2021-12-21",
+          "mm_long": 6792,
+          "mm_short": 22024,
+          "mm_net": -15232,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 224110
+        },
+        {
+          "date": "2021-12-28",
+          "mm_long": 6369,
+          "mm_short": 19269,
+          "mm_net": -12900,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 215921
+        },
+        {
+          "date": "2022-01-04",
+          "mm_long": 2642,
+          "mm_short": 17012,
+          "mm_net": -14370,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 203528
+        },
+        {
+          "date": "2022-01-11",
+          "mm_long": 2138,
+          "mm_short": 19848,
+          "mm_net": -17710,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 215266
+        },
+        {
+          "date": "2022-01-18",
+          "mm_long": 3785,
+          "mm_short": 20423,
+          "mm_net": -16638,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 227413
+        },
+        {
+          "date": "2022-01-25",
+          "mm_long": 5169,
+          "mm_short": 17891,
+          "mm_net": -12722,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 224561
+        },
+        {
+          "date": "2022-02-01",
+          "mm_long": 4882,
+          "mm_short": 13562,
+          "mm_net": -8680,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 203928
+        }
+      ]
+    },
+    {
+      "contract": "NG",
+      "cftc_name": "NATURAL GAS - NEW YORK MERCANTILE EXCHANGE",
+      "date": "2024-08-27",
+      "mm_long": 0,
+      "mm_short": 0,
+      "mm_net": 0,
+      "com_long": 0,
+      "com_short": 0,
+      "com_net": 0,
+      "oi": 19866,
+      "history": [
+        {
+          "date": "2021-09-14",
+          "mm_long": 284384,
+          "mm_short": 205702,
+          "mm_net": 78682,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1429777
+        },
+        {
+          "date": "2021-09-21",
+          "mm_long": 275112,
+          "mm_short": 234495,
+          "mm_net": 40617,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1378350
+        },
+        {
+          "date": "2021-09-28",
+          "mm_long": 246685,
+          "mm_short": 215643,
+          "mm_net": 31042,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1363463
+        },
+        {
+          "date": "2021-10-05",
+          "mm_long": 240098,
+          "mm_short": 206683,
+          "mm_net": 33415,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1376788
+        },
+        {
+          "date": "2021-10-12",
+          "mm_long": 222318,
+          "mm_short": 194448,
+          "mm_net": 27870,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1314022
+        },
+        {
+          "date": "2021-10-19",
+          "mm_long": 216470,
+          "mm_short": 211868,
+          "mm_net": 4602,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1318498
+        },
+        {
+          "date": "2021-10-26",
+          "mm_long": 210936,
+          "mm_short": 215849,
+          "mm_net": -4913,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1295271
+        },
+        {
+          "date": "2021-11-02",
+          "mm_long": 204365,
+          "mm_short": 218222,
+          "mm_net": -13857,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1267227
+        },
+        {
+          "date": "2021-11-09",
+          "mm_long": 201626,
+          "mm_short": 226187,
+          "mm_net": -24561,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1305687
+        },
+        {
+          "date": "2021-11-16",
+          "mm_long": 204178,
+          "mm_short": 213576,
+          "mm_net": -9398,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1308708
+        },
+        {
+          "date": "2021-11-23",
+          "mm_long": 202315,
+          "mm_short": 204169,
+          "mm_net": -1854,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1280907
+        },
+        {
+          "date": "2021-11-30",
+          "mm_long": 202849,
+          "mm_short": 209990,
+          "mm_net": -7141,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1269879
+        },
+        {
+          "date": "2021-12-07",
+          "mm_long": 181768,
+          "mm_short": 225482,
+          "mm_net": -43714,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1205626
+        },
+        {
+          "date": "2021-12-14",
+          "mm_long": 179840,
+          "mm_short": 213275,
+          "mm_net": -33435,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1153450
+        },
+        {
+          "date": "2021-12-21",
+          "mm_long": 183371,
+          "mm_short": 222708,
+          "mm_net": -39337,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1142729
+        },
+        {
+          "date": "2021-12-28",
+          "mm_long": 179990,
+          "mm_short": 201382,
+          "mm_net": -21392,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1110532
+        },
+        {
+          "date": "2022-01-04",
+          "mm_long": 184016,
+          "mm_short": 204138,
+          "mm_net": -20122,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1117606
+        },
+        {
+          "date": "2022-01-11",
+          "mm_long": 191430,
+          "mm_short": 176623,
+          "mm_net": 14807,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1136714
+        },
+        {
+          "date": "2022-01-18",
+          "mm_long": 201220,
+          "mm_short": 184948,
+          "mm_net": 16272,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1169188
+        },
+        {
+          "date": "2022-01-25",
+          "mm_long": 201355,
+          "mm_short": 191229,
+          "mm_net": 10126,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1141796
+        },
+        {
+          "date": "2022-02-01",
+          "mm_long": 207072,
+          "mm_short": 159221,
+          "mm_net": 47851,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 1162813
+        },
+        {
+          "date": "2024-03-12",
+          "mm_long": 589,
+          "mm_short": 0,
+          "mm_net": 589,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 25661
+        },
+        {
+          "date": "2024-03-19",
+          "mm_long": 594,
+          "mm_short": 0,
+          "mm_net": 594,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 30217
+        },
+        {
+          "date": "2024-04-16",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 28416
+        },
+        {
+          "date": "2024-04-23",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 31684
+        },
+        {
+          "date": "2024-08-27",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 19866
+        }
+      ]
+    },
+    {
+      "contract": "GASOLINE",
+      "cftc_name": "GASOLINE BLENDSTOCK (RBOB) - NEW YORK MERCANTILE EXCHANGE",
+      "date": "2015-06-09",
+      "mm_long": 59808,
+      "mm_short": 40363,
+      "mm_net": 19445,
+      "com_long": 0,
+      "com_short": 0,
+      "com_net": 0,
+      "oi": 353457,
+      "history": [
+        {
+          "date": "2014-12-16",
+          "mm_long": 70224,
+          "mm_short": 20088,
+          "mm_net": 50136,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 367893
+        },
+        {
+          "date": "2014-12-23",
+          "mm_long": 70382,
+          "mm_short": 20741,
+          "mm_net": 49641,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 360455
+        },
+        {
+          "date": "2014-12-30",
+          "mm_long": 66466,
+          "mm_short": 20689,
+          "mm_net": 45777,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 333093
+        },
+        {
+          "date": "2015-01-06",
+          "mm_long": 70360,
+          "mm_short": 24497,
+          "mm_net": 45863,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 334036
+        },
+        {
+          "date": "2015-01-13",
+          "mm_long": 74745,
+          "mm_short": 34915,
+          "mm_net": 39830,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 377019
+        },
+        {
+          "date": "2015-01-20",
+          "mm_long": 77984,
+          "mm_short": 35825,
+          "mm_net": 42159,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 381786
+        },
+        {
+          "date": "2015-01-27",
+          "mm_long": 85829,
+          "mm_short": 30060,
+          "mm_net": 55769,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 376283
+        },
+        {
+          "date": "2015-02-03",
+          "mm_long": 88742,
+          "mm_short": 32821,
+          "mm_net": 55921,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 377406
+        },
+        {
+          "date": "2015-02-10",
+          "mm_long": 91343,
+          "mm_short": 33892,
+          "mm_net": 57451,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 372959
+        },
+        {
+          "date": "2015-02-17",
+          "mm_long": 82723,
+          "mm_short": 35052,
+          "mm_net": 47671,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 358267
+        },
+        {
+          "date": "2015-02-24",
+          "mm_long": 80068,
+          "mm_short": 37918,
+          "mm_net": 42150,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 347643
+        },
+        {
+          "date": "2015-03-03",
+          "mm_long": 76157,
+          "mm_short": 32969,
+          "mm_net": 43188,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 352478
+        },
+        {
+          "date": "2015-03-10",
+          "mm_long": 74326,
+          "mm_short": 38290,
+          "mm_net": 36036,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 367556
+        },
+        {
+          "date": "2015-03-17",
+          "mm_long": 69422,
+          "mm_short": 37707,
+          "mm_net": 31715,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 369149
+        },
+        {
+          "date": "2015-03-24",
+          "mm_long": 68711,
+          "mm_short": 40371,
+          "mm_net": 28340,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 377166
+        },
+        {
+          "date": "2015-03-31",
+          "mm_long": 66410,
+          "mm_short": 42155,
+          "mm_net": 24255,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 389410
+        },
+        {
+          "date": "2015-04-07",
+          "mm_long": 66232,
+          "mm_short": 40690,
+          "mm_net": 25542,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 381195
+        },
+        {
+          "date": "2015-04-14",
+          "mm_long": 61317,
+          "mm_short": 44770,
+          "mm_net": 16547,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 385868
+        },
+        {
+          "date": "2015-04-21",
+          "mm_long": 64319,
+          "mm_short": 40153,
+          "mm_net": 24166,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 378444
+        },
+        {
+          "date": "2015-04-28",
+          "mm_long": 64563,
+          "mm_short": 38041,
+          "mm_net": 26522,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 383472
+        },
+        {
+          "date": "2015-05-05",
+          "mm_long": 63898,
+          "mm_short": 38023,
+          "mm_net": 25875,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 387231
+        },
+        {
+          "date": "2015-05-12",
+          "mm_long": 64894,
+          "mm_short": 39921,
+          "mm_net": 24973,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 392482
+        },
+        {
+          "date": "2015-05-19",
+          "mm_long": 65241,
+          "mm_short": 40464,
+          "mm_net": 24777,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 390332
+        },
+        {
+          "date": "2015-05-26",
+          "mm_long": 65188,
+          "mm_short": 42038,
+          "mm_net": 23150,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 373339
+        },
+        {
+          "date": "2015-06-02",
+          "mm_long": 66928,
+          "mm_short": 39909,
+          "mm_net": 27019,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 356325
+        },
+        {
+          "date": "2015-06-09",
+          "mm_long": 59808,
+          "mm_short": 40363,
+          "mm_net": 19445,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 353457
+        }
+      ]
+    }
+  ]
+}
