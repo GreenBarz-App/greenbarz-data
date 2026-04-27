@@ -1,0 +1,43 @@
+# GitHub Actions cron: runs the CFTC COT scraper every Friday at 21:00 UTC
+# (= 4 PM Eastern Time, just after CFTC publishes the weekly report).
+# Also runs on manual trigger ("Run workflow" button in GitHub UI) for testing.
+
+name: CFTC COT Weekly
+
+on:
+  schedule:
+    - cron: '0 21 * * 5'   # Friday 21:00 UTC = 4 PM ET
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write           # needed so the bot can commit data/*.json
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run CFTC COT scraper
+        run: python scrapers/cftc_cot.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "greenbarz-cot-bot"
+          git config user.email "bot@greenbarz.app"
+          git add data/cot_metals.json data/cot_energy.json
+          if git diff --staged --quiet; then
+            echo "No data changes — skipping commit."
+          else
+            git commit -m "COT update $(date -I)"
+            git push
+          fi
