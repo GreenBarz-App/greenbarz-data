@@ -1,0 +1,187 @@
+{
+  "updated": "2026-04-28",
+  "source": "Greenbarz physical market intel \u00b7 Aggregated from broker chatter, port call data, and trader network sources. Refreshed weekly during active trial period, then quarterly.",
+  "note": "Mideast-Asia crude flow pulse. We track who's buying, what's moving, and where the heat is \u2014 not individual cargo tickets. Aggregated by week and grade family for signal clarity.",
+  "scope": "Mideast Sour Crude \u00b7 Asian Buyers \u00b7 6-week rolling window",
+  "mood": {
+    "label": "ACTIVE",
+    "emoji": "\ud83d\udd25",
+    "tone": "up",
+    "color": "#ec4899",
+    "headline": "Heavy week for Mideast sours \u2014 premiums firming, Asian buyers leaning in"
+  },
+  "trader_share": {
+    "title": "Who's pulling barrels",
+    "subtitle": "Counterparty share of physical Mideast crude flows \u00b7 last 6 weeks",
+    "method": "Buy-side share, normalized to 100% across tracked deals. Players below ~5% bucketed as 'Smaller Desks'.",
+    "rows": [
+      {
+        "name": "Unipec",
+        "share": 32,
+        "wow": 4,
+        "note": "Aggressive on Murban for Jul loadings"
+      },
+      {
+        "name": "Total",
+        "share": 18,
+        "wow": -2,
+        "note": "Mixed grades, balanced book"
+      },
+      {
+        "name": "Vitol",
+        "share": 14,
+        "wow": 1,
+        "note": "Flow steady, opportunistic on Oman"
+      },
+      {
+        "name": "Mercuria",
+        "share": 12,
+        "wow": 3,
+        "note": "Adding Murban exposure"
+      },
+      {
+        "name": "Trafigura",
+        "share": 9,
+        "wow": -1,
+        "note": "Quieter than usual"
+      },
+      {
+        "name": "Smaller Desks",
+        "share": 15,
+        "wow": -5,
+        "note": "Refiner-direct deals down vs prior weeks"
+      }
+    ]
+  },
+  "grade_pulse": {
+    "title": "What's moving",
+    "subtitle": "Volume share by grade family \u00b7 last 4 weeks",
+    "method": "Approximate share of cargo volume in tracked Mideast-to-Asia flows. Greenbarz grade families combine related grades for readability.",
+    "weeks": [
+      "W-3",
+      "W-2",
+      "W-1",
+      "This Wk"
+    ],
+    "grades": [
+      {
+        "code": "MURBAN",
+        "name": "Murban \u00b7 Light Sweet",
+        "color": "#ec4899",
+        "values": [
+          22,
+          28,
+          31,
+          38
+        ],
+        "trend": "up",
+        "note": "Strong refiner pull"
+      },
+      {
+        "code": "DUBAI-OMAN",
+        "name": "Dubai / Oman \u00b7 Medium Sour Marker",
+        "color": "#2d3142",
+        "values": [
+          35,
+          32,
+          30,
+          28
+        ],
+        "trend": "down",
+        "note": "Steady but ceding share to lights"
+      },
+      {
+        "code": "UPPER-Z",
+        "name": "Upper Zakum \u00b7 Medium Sour",
+        "color": "#0d9f6e",
+        "values": [
+          12,
+          14,
+          11,
+          13
+        ],
+        "trend": "flat",
+        "note": "Consistent take"
+      },
+      {
+        "code": "AL-SHAHEEN",
+        "name": "Al Shaheen \u00b7 Heavy Sour",
+        "color": "#be185d",
+        "values": [
+          10,
+          8,
+          11,
+          9
+        ],
+        "trend": "flat",
+        "note": "Niche refiner demand"
+      },
+      {
+        "code": "OTHER-SOUR",
+        "name": "Other Sours \u00b7 Basrah, Qatar Marine",
+        "color": "#e53935",
+        "values": [
+          21,
+          18,
+          17,
+          12
+        ],
+        "trend": "down",
+        "note": "Heavy sour appetite cooling"
+      }
+    ]
+  },
+  "deal_signals": {
+    "title": "Deal Tape \u00b7 what we're seeing",
+    "subtitle": "6-8 representative signals \u00b7 not individual trade tickets",
+    "method": "Generalized observations across multiple deals. We don't publish counterparty pairs or exact prices \u2014 we publish what the flow is telling us.",
+    "cards": [
+      {
+        "tag": "MURBAN",
+        "tone": "up",
+        "headline": "Murban premiums firming hard",
+        "body": "Multiple cargoes printing $4-25 over Dated Brent for May-Jun loadings. Korean and Taiwanese refiners bidding aggressively. Light sweet preference back in fashion."
+      },
+      {
+        "tag": "WTI ARB",
+        "tone": "up",
+        "headline": "Asian buyers active on US Midland",
+        "body": "Taiwan (Formosa, CPC), Korea (SK), and Japan (Cosmo, Idemitsu) all picking up WTI Midland for Jul-26 arrival. Brent-WTI arb wide enough to make this work."
+      },
+      {
+        "tag": "DUBAI",
+        "tone": "up",
+        "headline": "Dubai partials trading at offer",
+        "body": "Three June Dubai partials cleared at the upper end of bid/offer \u2014 sellers holding out and getting paid. Asian demand strength is visible all the way through to physical convergences."
+      },
+      {
+        "tag": "OMAN",
+        "tone": "up",
+        "headline": "Oman M1/M3 spread blowing out",
+        "body": "Front-month Oman widening sharply over deferred. Either Asian refiners are short prompt barrels or Mideast supply is getting tight near-term. Either way, bullish pulse."
+      },
+      {
+        "tag": "WAF",
+        "tone": "neutral",
+        "headline": "West Africa light sweet thin",
+        "body": "Bonny, Escravos, Qua Iboe cargoes loading but no aggressive bids reported. Indian refiners taking opportunistic volumes. Atlantic Basin lights trading in line, not hot."
+      },
+      {
+        "tag": "HEAVY",
+        "tone": "down",
+        "headline": "Heavy sour appetite cooling",
+        "body": "Basrah Heavy and Qatar Marine seeing softer bid interest. Asian refiners shifting toward lighter grades \u2014 likely chasing better gasoline yields into summer driving season."
+      }
+    ]
+  },
+  "gb_take": {
+    "title": "GB Read",
+    "body": "Mideast sours are bid hard and Asian refiners are paying premium for light sweet \u2014 that's a coordinated signal. Murban's M1/M3 widening, Dubai partials at offer, and Korean/Taiwan term buying all point the same direction: prompt physical tightness in Asia. Watch the OPEC+ communications next 2-3 weeks. If they signal compliance hold, this premium structure has legs into Q3. If a hike leaks, fade fast.",
+    "confidence": "Medium-High",
+    "watch": [
+      "OPEC+ JMMC meeting",
+      "Murban M1/M3 spread",
+      "Korean/Taiwanese term tender results"
+    ]
+  }
+}
