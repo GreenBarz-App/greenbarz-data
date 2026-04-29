@@ -1,0 +1,95 @@
+{
+  "updated": "2026-04-27",
+  "source": "Manually curated snapshot. Refreshed quarterly.",
+  "note": "Energy transition fuels are reshaping aviation, trucking, and marine sectors. SAF blends with jet fuel; renewable diesel substitutes for ULSD. Prices reveal mandate-driven demand vs voluntary corporate buyers.",
+  "sections": [
+    {
+      "id": "saf",
+      "title": "Sustainable Aviation Fuel · SAF",
+      "subtitle": "Drop-in jet fuel from waste oils, palm, or biomass — under aviation decarbonization mandates",
+      "accent": "#10b981",
+      "products": [
+        {
+          "code": "SAFSTRAITS",
+          "name": "SAF Malacca Straits",
+          "price": 2947.00,
+          "wow_change": 8.92,
+          "unit": "$/MT",
+          "context": "Asia's SAF benchmark, FOB Singapore. Captures sustainable aviation fuel pricing for Asia-Pacific airlines. Major buyers include Singapore Airlines, Cathay Pacific. Premium over conventional Jet A1 reflects compliance demand under EU ReFuelEU and IATA mandates."
+        },
+        {
+          "code": "SAFCHINA",
+          "name": "SAF China",
+          "price": 2919.25,
+          "wow_change": 9.02,
+          "unit": "$/MT",
+          "context": "Chinese SAF pricing — relevant for Air China, China Eastern, and growing domestic biofuels industry. China's SAF mandate is voluntary but expanding. Spread vs Malacca Straits reflects feedstock availability."
+        }
+      ]
+    },
+    {
+      "id": "saf_cost",
+      "title": "SAF Production Cost Models",
+      "subtitle": "HEFA pathway — what producers pay to make SAF from used cooking oil vs palm oil",
+      "accent": "#06b6d4",
+      "products": [
+        {
+          "code": "SAFUCO_A",
+          "name": "Max SAF (UCO) Model A",
+          "price": 1886.75,
+          "wow_change": 2.50,
+          "unit": "$/MT",
+          "context": "Used cooking oil (UCO) to SAF cost model. Most environmentally credentialed feedstock — earns highest carbon credits. UCO supply is constrained (limited collection); pushes price up vs other pathways."
+        },
+        {
+          "code": "SAFUCO_B",
+          "name": "Max SAF (UCO) Model B",
+          "price": 1801.50,
+          "wow_change": 2.25,
+          "unit": "$/MT",
+          "context": "Alternative UCO model with different yield assumptions. The spread between Model A/B/C reveals process efficiency improvements over time."
+        },
+        {
+          "code": "SAFPALM_A",
+          "name": "Max SAF (Palm Oil) Model A",
+          "price": 1865.50,
+          "wow_change": -7.25,
+          "unit": "$/MT",
+          "context": "Palm oil pathway — cheaper feedstock than UCO but earns fewer carbon credits due to land-use concerns. Some jurisdictions (EU) restrict palm-based SAF eligibility for mandate compliance."
+        },
+        {
+          "code": "SAFPALM_C",
+          "name": "Max SAF (Palm Oil) Model C",
+          "price": 1715.50,
+          "wow_change": -7.50,
+          "unit": "$/MT",
+          "context": "Lower-cost palm oil model. Margin between cost models and SAF market price (~$2,947) reveals how profitable SAF production currently is."
+        }
+      ]
+    },
+    {
+      "id": "renewable_diesel",
+      "title": "Renewable Diesel · HVO",
+      "subtitle": "Hydrotreated Vegetable Oil — drop-in diesel substitute, identical performance to ULSD",
+      "accent": "#8b5cf6",
+      "products": [
+        {
+          "code": "HVOC2MS",
+          "name": "Class II Renewable Diesel",
+          "price": 2952.25,
+          "wow_change": 1.04,
+          "unit": "$/MT",
+          "context": "Renewable diesel meeting California LCFS Class II carbon intensity threshold. Used in trucking, off-road equipment, marine. Trades at premium vs ULSD due to LCFS credit value (~$80-120/credit)."
+        },
+        {
+          "code": "HVOC4MS",
+          "name": "Class IV Renewable Diesel",
+          "price": 3452.25,
+          "wow_change": 0.88,
+          "unit": "$/MT",
+          "context": "Higher-grade renewable diesel, lower carbon intensity (Class IV under LCFS). Earns more credits per gallon. Spread to Class II reflects market pricing of carbon intensity differential."
+        }
+      ]
+    }
+  ]
+}
