@@ -1,0 +1,62 @@
+{
+  "updated": "2026-04-27",
+  "source": "Manually curated snapshot · Refreshed quarterly.",
+  "note": "International crude benchmarks track regional supply/demand dynamics outside US WTI markets. Brent is global; Dubai is Asian; Murban is Mideast premium light; ESPO is Russian Far East flows.",
+  "benchmark": {"name": "Brent Dated", "price": 113.34, "unit": "$/bbl"},
+  "grades": [
+    {
+      "code": "BRENT",
+      "region": "North Sea",
+      "name": "Dated Brent FOB NWE",
+      "price": 113.34,
+      "wow_change": 0.42,
+      "role": "Global benchmark · Price reference for ~70% of world crude",
+      "context": "Dated Brent is the most-watched oil price globally. Pricing for Atlantic Basin grades, much of Africa, and Asian imports all reference Brent. North Sea field declines have made it less liquid but more responsive to flows."
+    },
+    {
+      "code": "DUBAI",
+      "region": "UAE / Mideast",
+      "name": "Dubai Partial",
+      "price": 104.20,
+      "wow_change": -2.80,
+      "role": "Asian benchmark · Sour Gulf crude",
+      "context": "Dubai Partial sets prices for Mideast crude flowing to Asia. The Brent-Dubai EFS spread (currently $9.14) signals which region buyers prefer — wide spread = Asian buyers prefer Mideast, narrow = preferring Atlantic Basin."
+    },
+    {
+      "code": "MURBAN",
+      "region": "UAE / Abu Dhabi",
+      "name": "IFAD Murban",
+      "price": 104.49,
+      "wow_change": -1.17,
+      "role": "Mideast light sweet · ICE futures contract",
+      "context": "Murban is Abu Dhabi's flagship light sweet grade. Now an ICE futures contract since 2021, it's challenging Brent for Mideast pricing influence. Premium to Dubai indicates buyer preference for sweeter crudes (less sulfur)."
+    },
+    {
+      "code": "FORTIES",
+      "region": "North Sea",
+      "name": "Forties Blend",
+      "price": 117.78,
+      "wow_change": 1.60,
+      "role": "BFOE basket constituent · Often the cheapest basket grade",
+      "context": "Forties is one of five grades that can be delivered against Dated Brent. As the typically-cheapest basket grade, Forties premium spikes signal North Sea supply tightness."
+    },
+    {
+      "code": "ESPO",
+      "region": "Russia · Far East",
+      "name": "ESPO (Eastern Siberia-Pacific Ocean)",
+      "price": 97.62,
+      "wow_change": 0.58,
+      "role": "Russian export to Asia · Sanctions-impacted",
+      "context": "ESPO is Russian crude shipped from Kozmino port to Asia (mostly China and India). Prices reflect Western sanctions discounts. Spread to Brent indicates how aggressively Asia buyers are absorbing Russian volumes."
+    },
+    {
+      "code": "BASRAH",
+      "region": "Iraq",
+      "name": "Basrah Medium",
+      "price": 106.53,
+      "wow_change": -1.79,
+      "role": "Iraqi flagship · OPEC+ swing producer",
+      "context": "Basrah Medium is Iraq's primary export grade. Iraq is OPEC's #2 producer. Persistent Basrah weakness vs Brent often signals OPEC+ overproduction or weak Asian refining demand."
+    }
+  ]
+}
