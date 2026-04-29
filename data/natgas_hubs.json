@@ -1,0 +1,113 @@
+{
+  "updated": "2026-04-28",
+  "source": "Greenbarz natgas pulse · Aggregated hub-level price snapshots refreshed weekly during launch period, then quarterly. Sourced from independent commodity assessor benchmarks.",
+  "note": "US natgas regional pulse. We track ~14 of the most-watched hubs across 4 thematic buckets — not every delivery point in every pipeline. The signal is regional rotation and basis stress, not exhaustive coverage.",
+  "scope": "US Natural Gas · 14 hubs · 4 thematic buckets",
+  "benchmark": {
+    "code": "HENRY",
+    "name": "Henry Hub",
+    "price": 2.67,
+    "wow_change": -0.14,
+    "wow_pct": -5.07,
+    "unit": "$/MMBtu",
+    "context": "The US natgas benchmark. Henry is the NYMEX delivery point and the reference price for nearly every other hub. When Henry moves, it ripples through every basis differential."
+  },
+  "mood": {
+    "label": "BASIS STRESS",
+    "emoji": "⚡",
+    "tone": "mixed",
+    "color": "#ec4899",
+    "headline": "Permian gas crashing into negative territory while Northeast premiums hold firm — classic spring shoulder season divergence."
+  },
+  "hero_signals": [
+    {
+      "tag": "PERMIAN",
+      "tone": "down",
+      "icon": "⚡",
+      "headline": "Waha at NEGATIVE $4.41",
+      "subhead": "Permian producers PAYING to move gas",
+      "body": "Waha is trading at a $7+ discount to Henry. With oil-associated gas overwhelming pipeline takeaway, producers are paying buyers to take volumes. This is the loudest US natgas signal right now.",
+      "metric_label": "vs Henry Hub",
+      "metric_value": "-$7.08"
+    },
+    {
+      "tag": "NORTHEAST",
+      "tone": "up",
+      "icon": "🔥",
+      "headline": "Algonquin Citygate +35% WoW",
+      "subhead": "Boston-area demand premium",
+      "body": "Algonquin trading $0.37 over Henry. Northeast pipeline constraints + late-season heating demand pushing citygate prices well above the national benchmark. Watch for a shoulder-season cooldown.",
+      "metric_label": "vs Henry Hub",
+      "metric_value": "+$0.37"
+    },
+    {
+      "tag": "GULF",
+      "tone": "neutral",
+      "icon": "⚖️",
+      "headline": "Houston Ship Channel firm",
+      "subhead": "LNG export demand steady",
+      "body": "HSC at $2.42 — slight discount to Henry but firmer than Permian. Gulf Coast LNG terminals continuing to pull volumes south. The spread to Waha tells you everything about where US gas wants to flow.",
+      "metric_label": "vs Henry Hub",
+      "metric_value": "-$0.25"
+    }
+  ],
+  "buckets": [
+    {
+      "id": "demand-tight",
+      "title": "Demand-Tight",
+      "subtitle": "Northeast & Midwest citygates · winter premium hubs",
+      "tone": "up",
+      "accent": "#ec4899",
+      "hubs": [
+        {"code": "ALGONQUIN", "name": "Algonquin Citygate",  "price": 3.04, "wow_pct": 35.32, "vs_hh": 0.37,  "note": "Boston demand premium · pipeline constrained"},
+        {"code": "TRANSCO6",  "name": "Transco Zone 6 NY",   "price": 2.32, "wow_pct": 4.74,  "vs_hh": -0.36, "note": "NYC delivery · steady"},
+        {"code": "CHICAGO",   "name": "Chicago Citygate",    "price": 2.37, "wow_pct": 3.39,  "vs_hh": -0.30, "note": "Midwest demand benchmark"},
+        {"code": "TETCO-M3",  "name": "Texas Eastern M-3",   "price": 2.41, "wow_pct": -5.14, "vs_hh": -0.27, "note": "Mid-Atlantic delivery · cooling"}
+      ]
+    },
+    {
+      "id": "permian-stress",
+      "title": "Permian Stress",
+      "subtitle": "Southwest hubs · oil-associated gas takeaway constrained",
+      "tone": "down",
+      "accent": "#e53935",
+      "hubs": [
+        {"code": "WAHA",       "name": "Waha",               "price": -4.41, "wow_pct": 32.28, "vs_hh": -7.08, "note": "NEGATIVE pricing · producers paying to flow"},
+        {"code": "EP-PERMIAN", "name": "El Paso Permian",    "price": -4.97, "wow_pct": null,  "vs_hh": -7.64, "note": "Even deeper discount than Waha"},
+        {"code": "TW-PERMIAN", "name": "Transwestern Permian","price": -4.95, "wow_pct": null,  "vs_hh": -7.62, "note": "Permian basin pipe network capped"}
+      ]
+    },
+    {
+      "id": "supply",
+      "title": "Supply Hubs",
+      "subtitle": "Appalachia & Rockies · production-weighted pricing",
+      "tone": "neutral",
+      "accent": "#2d3142",
+      "hubs": [
+        {"code": "COL-APP",   "name": "Columbia Gas Appalachia", "price": 2.17, "wow_pct": 1.93,  "vs_hh": -0.50, "note": "Marcellus/Utica producer netback"},
+        {"code": "DOMINION",  "name": "Eastern Gas South",       "price": 1.99, "wow_pct": -2.45, "vs_hh": -0.68, "note": "Appalachia supply pressure"},
+        {"code": "CHEYENNE",  "name": "Cheyenne Hub",            "price": 0.92, "wow_pct": 2.20,  "vs_hh": -1.75, "note": "Rockies basin · landlocked discount"},
+        {"code": "PG-MALIN",  "name": "California PG&E Malin",   "price": 0.91, "wow_pct": -3.40, "vs_hh": -1.76, "note": "PNW border · weak West Coast demand"}
+      ]
+    },
+    {
+      "id": "gulf",
+      "title": "Gulf Benchmarks",
+      "subtitle": "Texas & Louisiana · LNG export pricing zone",
+      "tone": "neutral",
+      "accent": "#0d9f6e",
+      "hubs": [
+        {"code": "HSC",        "name": "Houston Ship Channel",    "price": 2.42, "wow_pct": 3.61,  "vs_hh": -0.25, "note": "LNG export pulse"},
+        {"code": "KATY",       "name": "Katy",                    "price": 2.36, "wow_pct": -2.07, "vs_hh": -0.31, "note": "South Texas supply"},
+        {"code": "AGUA-DULCE", "name": "Agua Dulce Hub",          "price": 2.32, "wow_pct": 2.83,  "vs_hh": -0.35, "note": "Texas-Mexico border · Permian outlet"},
+        {"code": "ANR-LA",     "name": "ANR Louisiana",           "price": 2.51, "wow_pct": -6.20, "vs_hh": -0.16, "note": "Gulf supply · LNG-adjacent"}
+      ]
+    }
+  ],
+  "gb_take": {
+    "title": "GB Read",
+    "body": "The Permian-Northeast spread is the loudest US natgas signal right now. With Waha at -$4 and Algonquin at +$3, you're looking at a $7+ regional dispersion — wider than most of 2024-25. This screams pipeline-constrained supply at the wellhead and unmet demand at the citygate. Watch two things: Matterhorn and Permian Highway flow rates (any expansion eases Waha) and Northeast shoulder-season cooldown (premiums collapse when heating demand fades). LNG demand at HSC remains the structural bid that prevents Gulf prices from chasing Permian into negative territory.",
+    "confidence": "High",
+    "watch": ["Matterhorn pipe utilization", "Northeast HDD forecast", "LNG feedgas demand", "EIA weekly storage"]
+  }
+}
