@@ -1,0 +1,48 @@
+{
+  "updated": "2026-04-27",
+  "source": "Manually curated snapshot · Data conceptually based on independent commodity assessors. Refreshed quarterly.",
+  "note": "WTI grade differentials are the price gap between regional/grade-specific crude prices and Cushing benchmark. They're the cleanest signal of US oil flow imbalances.",
+  "benchmark": {"name": "WTI Cushing", "price": 99.83, "unit": "$/bbl"},
+  "differentials": [
+    {
+      "code": "WTI-HOU",
+      "name": "WTI East Houston",
+      "spread": 1.03,
+      "lastPrice": 100.86,
+      "wow_change": 0.17,
+      "signal": "Premium · Strong Gulf export demand",
+      "tone": "up",
+      "context": "When Houston trades above Cushing, US Gulf Coast refineries and exporters are paying up for crude. Persistent premiums indicate strong international export demand."
+    },
+    {
+      "code": "WTI-MID",
+      "name": "WTI Midland",
+      "spread": 0.00,
+      "lastPrice": 99.83,
+      "wow_change": 0.24,
+      "signal": "At benchmark · Permian production balanced",
+      "tone": "neutral",
+      "context": "Midland tracking Cushing closely indicates Permian Basin production is in rough balance with takeaway capacity. Sustained Midland discount signals Permian glut and pipeline constraints."
+    },
+    {
+      "code": "WTI-CRP",
+      "name": "WTI Corpus Christi",
+      "spread": 2.78,
+      "lastPrice": 102.61,
+      "wow_change": 3.30,
+      "signal": "Strong premium · Export terminal pull",
+      "tone": "up",
+      "context": "Corpus Christi is the largest US crude export hub. A premium signals tankers loading for Asia/Europe and tight cargo availability at Gulf terminals."
+    },
+    {
+      "code": "WCS-CSH",
+      "name": "Canadian Sour at Cushing",
+      "spread": -16.82,
+      "lastPrice": 83.01,
+      "wow_change": -0.56,
+      "signal": "Heavy discount · Heavy crude oversupply",
+      "tone": "down",
+      "context": "Western Canadian Select (WCS) trades at a structural discount due to higher density, sulfur content, and pipeline constraints out of Alberta. Wider discount = more heavy crude than refiners can absorb."
+    }
+  ]
+}
