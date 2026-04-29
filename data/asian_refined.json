@@ -1,0 +1,91 @@
+{
+  "updated": "2026-04-27",
+  "source": "Manually curated snapshot. Refreshed quarterly.",
+  "note": "Asian refined products are critical global signals. Singapore Gasoil is the Asian diesel benchmark. Fuel Oil 380CST tracks shipping demand. Naphtha drives petrochemical activity.",
+  "sections": [
+    {
+      "id": "diesel",
+      "title": "Asian Diesel",
+      "subtitle": "Singapore Gasoil — global diesel benchmark for Asia",
+      "products": [
+        {
+          "code": "GO10SG",
+          "name": "Singapore Gasoil 10ppm",
+          "price": 176.11,
+          "wow_change": 0.32,
+          "unit": "$/bbl",
+          "context": "The benchmark for Asian diesel pricing. Tracks demand from manufacturing, trucking, and shipping across Asia. Spread vs European diesel (ICE Gasoil) shows global flow imbalances — when Asia trades premium, European refiners ship east."
+        }
+      ]
+    },
+    {
+      "id": "naphtha",
+      "title": "Asian Naphtha",
+      "subtitle": "Petrochemical feedstock — drives plastic/chemical production",
+      "products": [
+        {
+          "code": "NAPSG",
+          "name": "Singapore Naphtha",
+          "price": 119.33,
+          "wow_change": 0.10,
+          "unit": "$/bbl",
+          "context": "Singapore is Asia's naphtha trading hub. Higher prices = stronger petrochemical demand from China/Korea ethylene crackers. Cracker margins (naphtha vs ethylene) drive plant utilization decisions."
+        },
+        {
+          "code": "NAPJP",
+          "name": "Japan Naphtha CFR",
+          "price": 1043.00,
+          "wow_change": 3.50,
+          "unit": "$/MT",
+          "context": "Japan is the world's largest naphtha importer. CFR cargoes show what Japanese petchem buyers are paying delivered. Note unit is $/MT (metric ton), not $/bbl. Premium vs Singapore reflects shipping + insurance to Japan."
+        },
+        {
+          "code": "NAPSK",
+          "name": "South Korea Naphtha",
+          "price": 1165.50,
+          "wow_change": 4.00,
+          "unit": "$/MT",
+          "context": "South Korea hosts massive ethylene crackers (LG Chem, Lotte). Korean naphtha demand is a leading indicator for global plastics manufacturing. High prices = strong consumer goods demand or cracker margin squeeze."
+        }
+      ]
+    },
+    {
+      "id": "bunker",
+      "title": "Bunker Fuel · Shipping Signal",
+      "subtitle": "Marine fuel — proxy for global shipping volumes",
+      "products": [
+        {
+          "code": "FO380SG",
+          "name": "Singapore Fuel Oil 380CST",
+          "price": 660.32,
+          "wow_change": 0.47,
+          "unit": "$/MT",
+          "context": "The world's busiest bunker fueling port. Singapore 380CST prices track demand from container ships, tankers, and bulk carriers globally. When BDI (Baltic Dry Index) rises, bunker demand rises with it. Useful cross-check for shipping ETF investors."
+        },
+        {
+          "code": "FO180SG",
+          "name": "Singapore Fuel Oil 180CST",
+          "price": 673.59,
+          "wow_change": 0.51,
+          "unit": "$/MT",
+          "context": "Lower-viscosity bunker grade, premium to 380CST. Used in older or smaller vessels. Spread vs 380CST narrows when refining capacity is tight."
+        }
+      ]
+    },
+    {
+      "id": "gasoline",
+      "title": "Asian Gasoline",
+      "subtitle": "Singapore RON benchmark",
+      "products": [
+        {
+          "code": "GA92SG",
+          "name": "Singapore Gasoline 92 RON",
+          "price": 128.01,
+          "wow_change": 1.91,
+          "unit": "$/bbl",
+          "context": "Asia's gasoline benchmark grade. Tracks driving demand across India, Indonesia, Vietnam, and other emerging Asian markets. Asian gasoline prices often diverge from US RBOB — Asia is a net importer where the US is a net exporter."
+        }
+      ]
+    }
+  ]
+}
