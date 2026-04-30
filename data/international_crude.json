@@ -1,62 +1,88 @@
 {
-  "updated": "2026-04-27",
-  "source": "Manually curated snapshot · Refreshed quarterly.",
-  "note": "International crude benchmarks track regional supply/demand dynamics outside US WTI markets. Brent is global; Dubai is Asian; Murban is Mideast premium light; ESPO is Russian Far East flows.",
-  "benchmark": {"name": "Brent Dated", "price": 113.34, "unit": "$/bbl"},
+  "updated": "2025-04-30",
+  "source": "Greenbarz · Curated · Brent / Dubai / BFOET basket",
+  "note": "Baseline values are typical-relationship placeholders. Replace from GX terminal during next scrape session — search 'BFOET grades' or each individual code on GX.",
   "grades": [
     {
       "code": "BRENT",
+      "name": "Brent (Dated)",
       "region": "North Sea",
-      "name": "Dated Brent FOB NWE",
-      "price": 113.34,
-      "wow_change": 0.42,
-      "role": "Global benchmark · Price reference for ~70% of world crude",
-      "context": "Dated Brent is the most-watched oil price globally. Pricing for Atlantic Basin grades, much of Africa, and Asian imports all reference Brent. North Sea field declines have made it less liquid but more responsive to flows."
+      "role": "Global benchmark · ~70% of seaborne crude pricing",
+      "price": 99.20,
+      "wow_change": 0.85,
+      "context": "The world's most-watched crude marker. Dated Brent is the daily-assessed cash market for North Sea crude delivered FOB Sullom Voe — the underlying that prices most international long-haul barrels. Spread to WTI reflects geopolitical risk premium + Atlantic Basin demand."
+    },
+    {
+      "code": "OSEBERG",
+      "name": "Oseberg",
+      "region": "North Sea",
+      "role": "BFOET basket grade · Norwegian medium sweet",
+      "price": 99.45,
+      "wow_change": 0.82,
+      "context": "Equinor-operated, eligible for delivery into Dated Brent. Slightly heavier than Brent itself (37° API vs 38°). Flow ~150-200 kb/d. Premium/discount vs Dated Brent reflects refiner appetite for medium-sweet vs lighter grades — driving season pulls Oseberg above Brent."
+    },
+    {
+      "code": "EKOFISK",
+      "name": "Ekofisk",
+      "region": "North Sea",
+      "role": "BFOET basket grade · Light sweet, oldest North Sea field",
+      "price": 99.85,
+      "wow_change": 0.90,
+      "context": "ConocoPhillips-operated, ~38° API, delivered Teesside. The lightest of the BFOET grades and usually trades at a small premium to Dated Brent — preferred by European gasoline-skewed refiners. Production ~280 kb/d."
+    },
+    {
+      "code": "TROLL",
+      "name": "Troll",
+      "region": "North Sea",
+      "role": "BFOET basket grade · Premium light sweet",
+      "price": 99.95,
+      "wow_change": 0.88,
+      "context": "Equinor-operated, ~36° API, delivered Mongstad. Highest-quality BFOET grade and usually the most expensive — strong distillate yield. Often the price-setter for the basket when North Sea supply tightens. Production ~330 kb/d."
+    },
+    {
+      "code": "JOHAN_SVERDRUP",
+      "name": "Johan Sverdrup",
+      "region": "North Sea",
+      "role": "BFOET basket grade · Newest field · Medium heavy sour",
+      "price": 96.50,
+      "wow_change": 0.65,
+      "context": "Norway's largest field, Equinor-operated. ~28° API, ~0.8% sulfur — heavier and more sour than the rest of BFOET. Trades at a notable discount to Dated Brent (~$2-4/bbl) reflecting lower yield of premium products. Production ~720 kb/d, the basket's largest single grade by volume."
     },
     {
       "code": "DUBAI",
+      "name": "Dubai",
       "region": "UAE / Mideast",
-      "name": "Dubai Partial",
-      "price": 104.20,
-      "wow_change": -2.80,
-      "role": "Asian benchmark · Sour Gulf crude",
-      "context": "Dubai Partial sets prices for Mideast crude flowing to Asia. The Brent-Dubai EFS spread (currently $9.14) signals which region buyers prefer — wide spread = Asian buyers prefer Mideast, narrow = preferring Atlantic Basin."
+      "role": "Asian benchmark · prices Mideast → Asia flows",
+      "price": 96.85,
+      "wow_change": 0.42,
+      "context": "Platts-assessed, the Asian counterpart to Brent. About 25 mb/d of crude (most Mideast Gulf grades) priced off Dubai. Brent-Dubai spread (EFS) is the key arb signal between Atlantic and Pacific basins — narrow EFS = Asia bidding aggressively for North Sea barrels."
     },
     {
       "code": "MURBAN",
+      "name": "Murban",
       "region": "UAE / Abu Dhabi",
-      "name": "IFAD Murban",
-      "price": 104.49,
-      "wow_change": -1.17,
-      "role": "Mideast light sweet · ICE futures contract",
-      "context": "Murban is Abu Dhabi's flagship light sweet grade. Now an ICE futures contract since 2021, it's challenging Brent for Mideast pricing influence. Premium to Dubai indicates buyer preference for sweeter crudes (less sulfur)."
-    },
-    {
-      "code": "FORTIES",
-      "region": "North Sea",
-      "name": "Forties Blend",
-      "price": 117.78,
-      "wow_change": 1.60,
-      "role": "BFOE basket constituent · Often the cheapest basket grade",
-      "context": "Forties is one of five grades that can be delivered against Dated Brent. As the typically-cheapest basket grade, Forties premium spikes signal North Sea supply tightness."
+      "role": "Light sour Mideast benchmark · ICE Murban futures",
+      "price": 99.10,
+      "wow_change": 0.55,
+      "context": "ADNOC's flagship grade, ~40° API, ~0.8% sulfur. Now has its own ICE futures contract (since 2021), trades as a lighter alternative to Dubai. Premium to Dubai reflects higher distillate yield. Most Asian refiners take Murban via long-term term contracts."
     },
     {
       "code": "ESPO",
+      "name": "ESPO Blend",
       "region": "Russia · Far East",
-      "name": "ESPO (Eastern Siberia-Pacific Ocean)",
-      "price": 97.62,
-      "wow_change": 0.58,
-      "role": "Russian export to Asia · Sanctions-impacted",
-      "context": "ESPO is Russian crude shipped from Kozmino port to Asia (mostly China and India). Prices reflect Western sanctions discounts. Spread to Brent indicates how aggressively Asia buyers are absorbing Russian volumes."
+      "role": "Pacific Russia barrel · Sanctions-discounted",
+      "price": 78.40,
+      "wow_change": -1.20,
+      "context": "Eastern Siberia-Pacific Ocean pipeline blend, delivered Kozmino port. ~35° API, low sulfur. Heavily discounted (~$15-20/bbl below Brent) post-2022 sanctions — buyers are mostly Chinese teapots + Indian state refiners. Spread vs Brent is the cleanest signal of Russia sanction enforcement intensity."
     },
     {
-      "code": "BASRAH",
-      "region": "Iraq",
+      "code": "BASRAH_MEDIUM",
       "name": "Basrah Medium",
-      "price": 106.53,
-      "wow_change": -1.79,
-      "role": "Iraqi flagship · OPEC+ swing producer",
-      "context": "Basrah Medium is Iraq's primary export grade. Iraq is OPEC's #2 producer. Persistent Basrah weakness vs Brent often signals OPEC+ overproduction or weak Asian refining demand."
+      "region": "Iraq",
+      "role": "Iraqi medium sour · OPEC barrel",
+      "price": 95.75,
+      "wow_change": 0.28,
+      "context": "SOMO-marketed Iraqi grade, ~30° API, ~2.7% sulfur. Iraq is OPEC's #2 producer and Basrah Medium is its main export grade. Term-contract pricing tied to Dubai. Watch the Basrah-Dubai differential for Iraqi production discipline signals."
     }
   ]
 }
