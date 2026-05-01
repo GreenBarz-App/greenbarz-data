@@ -1,0 +1,28 @@
+{
+  "updated": "2026-04-30",
+  "source": "Greenbarz · Curated from General Index · Dubai partials trade flows",
+  "note": "Aggregated counterparty volumes in the Dubai partials window. Sellers sum + buyers sum should approximately match (representing total bilateral trade count). Refresh weekly.",
+  "context": {
+    "sellers_lead": "Unipec dominates the sell side (121 partials) — Chinese state-trader acting as primary supplier of Mideast crude to the international window.",
+    "buyers_lead": "Total leads buy side (82) followed by Vitol (50) and Trafigura (24) — major European refiners and traders absorbing the flow.",
+    "trade_signal": "When Unipec's sell share spikes above ~60%, it usually signals China is destocking strategic reserves or Chinese refiners are unprofitable on Mideast crude. Watch this ratio for cracks in Asian demand."
+  },
+  "sellers": [
+    { "name": "Unipec",     "count": 121 },
+    { "name": "Shell",      "count": 48  },
+    { "name": "BP",         "count": 16  },
+    { "name": "Shenghong",  "count": 6   },
+    { "name": "Mitsui",     "count": 2   },
+    { "name": "Phillips 66","count": 2   },
+    { "name": "Glencore",   "count": 1   }
+  ],
+  "buyers": [
+    { "name": "Total",      "count": 82 },
+    { "name": "Vitol",      "count": 50 },
+    { "name": "Trafigura",  "count": 24 },
+    { "name": "Mercuria",   "count": 20 },
+    { "name": "BP",         "count": 14 },
+    { "name": "Mitsui",     "count": 4  },
+    { "name": "Equinor",    "count": 1  }
+  ]
+}
