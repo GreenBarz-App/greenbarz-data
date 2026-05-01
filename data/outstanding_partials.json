@@ -1,0 +1,15 @@
+{
+  "updated": "2026-04-30",
+  "source": "Greenbarz · Curated from General Index · Dubai window outstanding partials",
+  "note": "Outstanding partials are convergences declared but not yet matched into a full physical cargo. Dominant flows reveal which majors have committed buy/sell positions and need to find counterparties. Refresh weekly.",
+  "context": {
+    "what": "When a buyer and seller in the Dubai partial market commit to swap part of a cargo, the position remains 'outstanding' until matched. The bigger the bar, the more cargo flow that pair is committed to but hasn't physically delivered yet.",
+    "why": "Outstanding partial concentration reveals which counterparty pairs are doing the heavy lifting in setting the Dubai benchmark. Persistent imbalance (e.g., Shell consistently selling to Vitol) signals refining demand patterns and major-to-trader cargo flow."
+  },
+  "pairs": [
+    { "seller": "Shell",  "buyer": "Vitol",    "count": 17 },
+    { "seller": "BP",     "buyer": "Total",    "count": 7  },
+    { "seller": "Unipec", "buyer": "BP",       "count": 4  },
+    { "seller": "Unipec", "buyer": "Vitol",    "count": 4  }
+  ]
+}
