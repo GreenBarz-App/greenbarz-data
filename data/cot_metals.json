@@ -1,39 +1,19 @@
 {
-  "updated": "2026-05-09",
+  "updated": "2026-05-16",
   "source": "CFTC Disaggregated Futures-Only",
   "contracts": [
     {
       "contract": "GOLD",
       "cftc_name": "GOLD - COMMODITY EXCHANGE INC.",
-      "date": "2026-05-05",
-      "mm_long": 870,
-      "mm_short": 235,
-      "mm_net": 635,
+      "date": "2026-05-12",
+      "mm_long": 127242,
+      "mm_short": 29227,
+      "mm_net": 98015,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 65308,
+      "oi": 376496,
       "history": [
-        {
-          "date": "2026-02-10",
-          "mm_long": 218,
-          "mm_short": 611,
-          "mm_net": -393,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 60592
-        },
-        {
-          "date": "2026-02-10",
-          "mm_long": 119232,
-          "mm_short": 27210,
-          "mm_net": 92022,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 404391
-        },
         {
           "date": "2026-02-17",
           "mm_long": 0,
@@ -256,6 +236,16 @@
         },
         {
           "date": "2026-05-05",
+          "mm_long": 870,
+          "mm_short": 235,
+          "mm_net": 635,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 65308
+        },
+        {
+          "date": "2026-05-05",
           "mm_long": 123353,
           "mm_short": 29099,
           "mm_net": 94254,
@@ -265,39 +255,39 @@
           "oi": 367932
         },
         {
-          "date": "2026-05-05",
-          "mm_long": 870,
-          "mm_short": 235,
-          "mm_net": 635,
+          "date": "2026-05-12",
+          "mm_long": 531,
+          "mm_short": 0,
+          "mm_net": 531,
           "com_long": 0,
           "com_short": 0,
           "com_net": 0,
-          "oi": 65308
+          "oi": 67067
+        },
+        {
+          "date": "2026-05-12",
+          "mm_long": 127242,
+          "mm_short": 29227,
+          "mm_net": 98015,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 376496
         }
       ]
     },
     {
       "contract": "SILVER",
       "cftc_name": "SILVER - COMMODITY EXCHANGE INC.",
-      "date": "2026-05-05",
-      "mm_long": 15697,
-      "mm_short": 4854,
-      "mm_net": 10843,
+      "date": "2026-05-12",
+      "mm_long": 21191,
+      "mm_short": 5430,
+      "mm_net": 15761,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 96932,
+      "oi": 103800,
       "history": [
-        {
-          "date": "2025-12-09",
-          "mm_long": 39798,
-          "mm_short": 14023,
-          "mm_net": 25775,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 154762
-        },
         {
           "date": "2025-12-16",
           "mm_long": 36424,
@@ -547,31 +537,31 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 96932
+        },
+        {
+          "date": "2026-05-12",
+          "mm_long": 21191,
+          "mm_short": 5430,
+          "mm_net": 15761,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 103800
         }
       ]
     },
     {
       "contract": "COPPER",
       "cftc_name": "COPPER- #1 - COMMODITY EXCHANGE INC.",
-      "date": "2026-05-05",
-      "mm_long": 80400,
-      "mm_short": 16927,
-      "mm_net": 63473,
+      "date": "2026-05-12",
+      "mm_long": 88517,
+      "mm_short": 14029,
+      "mm_net": 74488,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 232609,
+      "oi": 259808,
       "history": [
-        {
-          "date": "2025-11-10",
-          "mm_long": 73999,
-          "mm_short": 10715,
-          "mm_net": 63284,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 265474
-        },
         {
           "date": "2025-11-18",
           "mm_long": 73031,
@@ -821,31 +811,31 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 232609
+        },
+        {
+          "date": "2026-05-12",
+          "mm_long": 88517,
+          "mm_short": 14029,
+          "mm_net": 74488,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 259808
         }
       ]
     },
     {
       "contract": "PLATINUM",
       "cftc_name": "PLATINUM - NEW YORK MERCANTILE EXCHANGE",
-      "date": "2026-05-05",
-      "mm_long": 17356,
-      "mm_short": 4984,
-      "mm_net": 12372,
+      "date": "2026-05-12",
+      "mm_long": 19980,
+      "mm_short": 3869,
+      "mm_net": 16111,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 60646,
+      "oi": 63375,
       "history": [
-        {
-          "date": "2025-11-10",
-          "mm_long": 34217,
-          "mm_short": 19024,
-          "mm_net": 15193,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 80545
-        },
         {
           "date": "2025-11-18",
           "mm_long": 34034,
@@ -1095,31 +1085,31 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 60646
+        },
+        {
+          "date": "2026-05-12",
+          "mm_long": 19980,
+          "mm_short": 3869,
+          "mm_net": 16111,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 63375
         }
       ]
     },
     {
       "contract": "PALLADIUM",
       "cftc_name": "PALLADIUM - NEW YORK MERCANTILE EXCHANGE",
-      "date": "2026-05-05",
-      "mm_long": 4628,
-      "mm_short": 6566,
-      "mm_net": -1938,
+      "date": "2026-05-12",
+      "mm_long": 4698,
+      "mm_short": 6646,
+      "mm_net": -1948,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 15985,
+      "oi": 17419,
       "history": [
-        {
-          "date": "2025-11-10",
-          "mm_long": 6948,
-          "mm_short": 7751,
-          "mm_net": -803,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 20626
-        },
         {
           "date": "2025-11-18",
           "mm_long": 6965,
@@ -1369,6 +1359,16 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 15985
+        },
+        {
+          "date": "2026-05-12",
+          "mm_long": 4698,
+          "mm_short": 6646,
+          "mm_net": -1948,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 17419
         }
       ]
     }
