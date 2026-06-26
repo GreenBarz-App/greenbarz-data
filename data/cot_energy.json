@@ -1,39 +1,19 @@
 {
-  "updated": "2026-06-19",
+  "updated": "2026-06-26",
   "source": "CFTC Disaggregated Futures-Only",
   "contracts": [
     {
       "contract": "WTI",
       "cftc_name": "CRUDE OIL, LIGHT SWEET-WTI - ICE FUTURES EUROPE",
-      "date": "2026-06-09",
-      "mm_long": 5871,
-      "mm_short": 33439,
-      "mm_net": -27568,
+      "date": "2026-06-23",
+      "mm_long": 3786,
+      "mm_short": 22173,
+      "mm_net": -18387,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 818492,
+      "oi": 803067,
       "history": [
-        {
-          "date": "2025-12-16",
-          "mm_long": 3584,
-          "mm_short": 38192,
-          "mm_net": -34608,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 802736
-        },
-        {
-          "date": "2025-12-23",
-          "mm_long": 4255,
-          "mm_short": 37992,
-          "mm_net": -33737,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 773263
-        },
         {
           "date": "2025-12-30",
           "mm_long": 3903,
@@ -273,41 +253,41 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 818492
+        },
+        {
+          "date": "2026-06-16",
+          "mm_long": 3458,
+          "mm_short": 27124,
+          "mm_net": -23666,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 822990
+        },
+        {
+          "date": "2026-06-23",
+          "mm_long": 3786,
+          "mm_short": 22173,
+          "mm_net": -18387,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 803067
         }
       ]
     },
     {
       "contract": "WTI_NYM",
       "cftc_name": "WTI FINANCIAL CRUDE OIL - NEW YORK MERCANTILE EXCHANGE",
-      "date": "2026-06-09",
+      "date": "2026-06-23",
       "mm_long": 0,
       "mm_short": 0,
       "mm_net": 0,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 209220,
+      "oi": 218740,
       "history": [
-        {
-          "date": "2025-12-16",
-          "mm_long": 0,
-          "mm_short": 1058,
-          "mm_net": -1058,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 166861
-        },
-        {
-          "date": "2025-12-23",
-          "mm_long": 0,
-          "mm_short": 1334,
-          "mm_net": -1334,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 174882
-        },
         {
           "date": "2025-12-30",
           "mm_long": 0,
@@ -547,6 +527,26 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 209220
+        },
+        {
+          "date": "2026-06-16",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 216548
+        },
+        {
+          "date": "2026-06-23",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 218740
         }
       ]
     },
