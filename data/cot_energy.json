@@ -1,29 +1,19 @@
 {
-  "updated": "2026-07-31",
+  "updated": "2026-08-07",
   "source": "CFTC Disaggregated Futures-Only",
   "contracts": [
     {
       "contract": "WTI",
       "cftc_name": "CRUDE OIL, LIGHT SWEET-WTI - ICE FUTURES EUROPE",
-      "date": "2026-07-28",
-      "mm_long": 11360,
-      "mm_short": 21319,
-      "mm_net": -9959,
+      "date": "2026-08-04",
+      "mm_long": 15256,
+      "mm_short": 22346,
+      "mm_net": -7090,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 781193,
+      "oi": 782189,
       "history": [
-        {
-          "date": "2026-02-03",
-          "mm_long": 19371,
-          "mm_short": 41173,
-          "mm_net": -21802,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 823911
-        },
         {
           "date": "2026-02-10",
           "mm_long": 18177,
@@ -273,31 +263,31 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 781193
+        },
+        {
+          "date": "2026-08-04",
+          "mm_long": 15256,
+          "mm_short": 22346,
+          "mm_net": -7090,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 782189
         }
       ]
     },
     {
       "contract": "WTI_NYM",
       "cftc_name": "WTI FINANCIAL CRUDE OIL - NEW YORK MERCANTILE EXCHANGE",
-      "date": "2026-07-28",
+      "date": "2026-08-04",
       "mm_long": 0,
       "mm_short": 0,
       "mm_net": 0,
       "com_long": 0,
       "com_short": 0,
       "com_net": 0,
-      "oi": 212110,
+      "oi": 189613,
       "history": [
-        {
-          "date": "2026-02-03",
-          "mm_long": 0,
-          "mm_short": 0,
-          "mm_net": 0,
-          "com_long": 0,
-          "com_short": 0,
-          "com_net": 0,
-          "oi": 167458
-        },
         {
           "date": "2026-02-10",
           "mm_long": 0,
@@ -547,6 +537,16 @@
           "com_short": 0,
           "com_net": 0,
           "oi": 212110
+        },
+        {
+          "date": "2026-08-04",
+          "mm_long": 0,
+          "mm_short": 0,
+          "mm_net": 0,
+          "com_long": 0,
+          "com_short": 0,
+          "com_net": 0,
+          "oi": 189613
         }
       ]
     },
